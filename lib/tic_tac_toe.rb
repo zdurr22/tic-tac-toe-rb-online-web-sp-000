@@ -78,13 +78,5 @@ def move(board, index, current_player)
 end
 
 def position_taken?(board, index)
-  if board[index] == " "
-    false
-  elsif board[index] == ""
-    false
-  elsif board[index] == nil
-    false
-  elsif board[index] == "X" || board[0] == "O"
-    true
-  end
+  !(board[index].nil? || board[index] == " ")
 end
