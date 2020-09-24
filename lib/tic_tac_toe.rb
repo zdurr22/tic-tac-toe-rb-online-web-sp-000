@@ -98,7 +98,7 @@ def turn(board)
   end
 end
 
-def winner(board)
+def winner
   index = []
   index = won?(board)
   if index == false
@@ -118,7 +118,7 @@ def play(board)
   end
 
   if won?(board) == true
-    puts "Congratulations #{winner(board)}!"
+    puts "Congratulations #{winner}!"
   elsif draw?(board) == true
     puts "Cat's Game!"
   end
