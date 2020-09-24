@@ -77,7 +77,7 @@ def move(board, index, current_player)
   board[index] = current_player
 end
 
-def position_taken?(position)
+def position_taken?(board, index)
   if board[0] == " "
     false
   elsif board[0] == ""
