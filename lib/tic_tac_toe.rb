@@ -98,7 +98,7 @@ def turn(board)
   end
 end
 
-def winner
+def winner(board)
   index = []
   index = won?(board)
   if index == false
