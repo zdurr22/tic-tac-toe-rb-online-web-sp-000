@@ -4,11 +4,11 @@
       "/home/courageous-terminal-1505/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
         null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
+        2,
+        2,
+        2,
+        2,
+        2,
         null,
         null,
         1,
@@ -74,6 +74,6 @@
         null
       ]
     },
-    "timestamp": 1600972976
+    "timestamp": 1600972998
   }
 }
