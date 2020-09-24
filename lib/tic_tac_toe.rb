@@ -78,13 +78,13 @@ def move(board, index, current_player)
 end
 
 def position_taken?(board, index)
-  if board[0] == " "
+  if board[index] == " "
     false
-  elsif board[0] == ""
+  elsif board[index] == ""
     false
-  elsif board[0] == nil
+  elsif board[index] == nil
     false
-  elsif board[0] == "X" || board[0] == "O"
+  elsif board[index] == "X" || board[0] == "O"
     true
   end
 end
